@@ -1,0 +1,24 @@
+.carousel-item {
+	height: 400px;
+}
+
+#CarouselMod {
+	height: 400px;
+}
+
+.carouselStart {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#ft {
+	background: linear-gradient(#002147, #1c37aa);
+	text-align: center;
+	padding: 20px;
+	color: #f0f2f7;
+}
+
+.row-fill {
+	width: 100%;
+	float: left;
+}
