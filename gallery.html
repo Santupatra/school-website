@@ -10,6 +10,28 @@
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
 	crossorigin="anonymous">
+<style>
+div.gallery {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 180px;
+}
+
+div.gallery:hover {
+	border: 1px solid #777;
+}
+
+div.gallery img {
+	width: 100%;
+	height: auto;
+}
+
+div.desc {
+	padding: 15px;
+	text-align: center;
+}
+</style>
 </head>
 
 <body>
@@ -28,8 +50,8 @@
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item active"><a class="nav-link"
 					href="index.html">Home <span class="sr-only"></span></a></li>
-				<li class="nav-item"><a class="nav-link" href="news_events.html">News &
-						Events</a></li>
+				<li class="nav-item"><a class="nav-link"
+					href="news_events.html">News & Events</a></li>
 				<li class="nav-item dropdown"><a
 					class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
 					role="button" data-toggle="dropdown" aria-haspopup="true"
@@ -38,7 +60,8 @@
 						<li><a class="dropdown-item" href="staff/arts.html">Arts</a></li>
 						<li><a class="dropdown-item" href="staff/language.html">Language</a></li>
 						<li><a class="dropdown-item" href="staff/science.html">Science</a></li>
-						<li><a class="dropdown-item" href="staff/non_teaching_staff.html">Non Teaching Staff</a></li>
+						<li><a class="dropdown-item"
+							href="staff/non_teaching_staff.html">Non Teaching Staff</a></li>
 					</ul></li>
 				<li class="nav-item dropdown"><a
 					class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
@@ -47,17 +70,18 @@
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						<a class="dropdown-item" href="syllabus/syllabusV.html">V</a> <a
 							class="dropdown-item" href="syllabus/syllabusVI.html">VI</a> <a
-							class="dropdown-item" href="syllabus/syllabusVII.html">VII</a>
-						<a class="dropdown-item" href="syllabus/syllabusVIII.html">VIII</a>
-						<a class="dropdown-item" href="syllabus/syllabusIX.html">IX</a>
-						<a class="dropdown-item" href="syllabus/syllabusX.html">X</a> <a
+							class="dropdown-item" href="syllabus/syllabusVII.html">VII</a> <a
+							class="dropdown-item" href="syllabus/syllabusVIII.html">VIII</a>
+						<a class="dropdown-item" href="syllabus/syllabusIX.html">IX</a> <a
+							class="dropdown-item" href="syllabus/syllabusX.html">X</a> <a
 							class="dropdown-item" href="syllabus/syllabusXI.html">XI</a> <a
 							class="dropdown-item" href="syllabus/syllabusXII.html">XII</a>
 					</div></li>
-				
-				<li class="nav-item"><a class="nav-link" href="scholarship.html">Scholarship</a>
+
+				<li class="nav-item"><a class="nav-link"
+					href="scholarship.html">Scholarship</a></li>
+				<li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a>
 				</li>
-				<li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
 			</ul>
 		</div>
 	</nav>
@@ -73,82 +97,41 @@
 		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
 		crossorigin="anonymous"></script>
 
-	
-	<div class="row">
-		<div class="col-sm-3">
-			<div class="card">
-				<img src="images/profilePucture.jpg" class="card-img-top"
-					alt="...">
-				<div class="card-body">
-					<h5 class="card-title">Card title</h5>
-					<p class="card-text">Head</p>
-				</div>
-				<ul class="list-group list-group-flush">
-					<li class="list-group-item">Cras justo odio</li>
-					<li class="list-group-item">Dapibus ac facilisis in</li>
+	<div>
 
-				</ul>
-				<div class="card-body">
-					<a href="#" class="card-link">Card link</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-sm-3">
-			<div class="card">
-				<img src="images/profilePucture.jpg" class="card-img-top"
-					alt="...">
-				<div class="card-body">
-					<h5 class="card-title">Card title</h5>
-					<p class="card-text">Head</p>
-				</div>
-				<ul class="list-group list-group-flush">
-					<li class="list-group-item">Cras justo odio</li>
-					<li class="list-group-item">Dapibus ac facilisis in</li>
 
-				</ul>
-				<div class="card-body">
-					<a href="#" class="card-link">Card link</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-sm-3">
-			<div class="card">
-				<img src="images/profilePucture.jpg" class="card-img-top"
-					alt="...">
-				<div class="card-body">
-					<h5 class="card-title">Card title</h5>
-					<p class="card-text">Head</p>
-				</div>
-				<ul class="list-group list-group-flush">
-					<li class="list-group-item">Cras justo odio</li>
-					<li class="list-group-item">Dapibus ac facilisis in</li>
 
-				</ul>
-				<div class="card-body">
-					<a href="#" class="card-link">Card link</a>
-				</div>
-			</div>
+		<div class="gallery">
+			<a target="_blank" href="images/profilePucture.jpg"> <img
+				src="images/profilePucture.jpg" alt="Mshs" width="600" height="400">
+			</a>
+			<div class="desc">This is the School gate</div>
 		</div>
-		<div class="col-sm-3">
-			<div class="card">
-				<img src="images/profilePucture.jpg" class="card-img-top"
-					alt="...">
-				<div class="card-body">
-					<h5 class="card-title">Card title</h5>
-					<p class="card-text">Head</p>
-				</div>
-				<ul class="list-group list-group-flush">
-					<li class="list-group-item">Cras justo odio</li>
-					<li class="list-group-item">Dapibus ac facilisis in</li>
 
-				</ul>
-				<div class="card-body">
-					<a href="#" class="card-link">Card link</a>
-				</div>
-			</div>
+		<div class="gallery">
+			<a target="_blank" href="images/profilePucture.jpg"> <img
+				src="images/profilePucture.jpg" alt="Forest" width="600" height="400">
+			</a>
+			<div class="desc">Add a description of the image here</div>
 		</div>
+
+		<div class="gallery">
+			<a target="_blank" href="images/profilePucture.jpg"> <img
+				src="images/profilePucture.jpg" alt="Northern Lights" width="600" height="400">
+			</a>
+			<div class="desc">Add a description of the image here</div>
+		</div>
+
+		<div class="gallery">
+			<a target="_blank" href="images/profilePucture.jpg"> <img
+				src="images/profilePucture.jpg" alt="Mountains" width="600" height="400">
+			</a>
+			<div class="desc">Add a description of the image here</div>
+		</div>
+
+
+
 	</div>
-
 </body>
 
 </html>
