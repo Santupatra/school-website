@@ -1,0 +1,13 @@
+/* footer start */
+#ft {
+	background: linear-gradient(#002147, #1c37aa);
+	text-align: center;
+	padding: 20px;
+	color: #f0f2f7;
+}
+
+.row-fill {
+	width: 100%;
+	float: left;
+}
+/* footer end */
