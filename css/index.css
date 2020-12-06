@@ -1,3 +1,4 @@
+/* Carousel start */
 .carousel-item {
 	height: 400px;
 }
@@ -10,7 +11,23 @@
 	padding-left: 10%;
 	padding-right: 10%;
 }
+/* Carousel end */
 
+.welcome {
+	background: linear-gradient(#002147, #1c37aa);
+	color: #fff;
+	padding: 12px 20px;
+	font-weight: 100;
+	font: small-caption;
+	font-size: 30px;
+	margin: 30px -20px 0 -20px;
+}
+.mapImg{
+	height: 400px;
+	width: 100%;
+	
+}
+/* footer start */
 #ft {
 	background: linear-gradient(#002147, #1c37aa);
 	text-align: center;
@@ -22,3 +39,4 @@
 	width: 100%;
 	float: left;
 }
+/* footer end */
